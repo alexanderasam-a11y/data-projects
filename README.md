@@ -22,7 +22,7 @@ Built with Python and CustomTkinter.
 
 ## Installation
 ```bash
-git clone https://github.com/DEIN-NAME/sql-query-exporter.git
+git clone https://github.com/alexanderasam-a11y/sql-query-exporter.git
 cd sql-query-exporter
 pip install -r requirements.txt
 ```
