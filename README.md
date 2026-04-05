@@ -21,10 +21,14 @@ Built with Python and CustomTkinter.
 - MS SQL Server: [ODBC Driver 17 for SQL Server](https://learn.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server)
 
 ## Installation
-```bash
+
 git clone https://github.com/alexanderasam-a11y/sql-query-exporter.git
 cd sql-query-exporter
 pip install -r requirements.txt
 ```
 
 Copy `.env.example` to `.env` and enter your database password:
+
+DB_PASSWORD=your_password_here
+
+All other connection parameters (server, database, user, port) are entered directly in the GUI and saved automatically to `config.json` between sessions. The password is intentionally excluded from `config.json` and is only read from the `.env` file.
